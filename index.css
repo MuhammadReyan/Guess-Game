@@ -1,0 +1,104 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+
+
+.section1 {
+    background-image: url('/assets/982daa76a2deebfd8a2b8e784b5707c7.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    object-fit: contain;
+}
+
+.heading {
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    color: white;
+    font-weight: bold;
+    font-size: 4rem;
+    padding-top: 2%;
+
+}
+
+
+.down {
+
+
+    margin-top: 7%;
+    color: white;
+    width: calc(20vw + 6px);
+    height: calc(8vw + 6px);
+    background-image: linear-gradient(90deg, #0077ff23 0%, #001aff 49%, #13111110 80%, #03344d1f 100%);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 1vw;
+    font-weight: bold;
+    border: none;
+
+}
+
+
+
+.down {
+    content: attr(alt);
+    width: 20vw;
+    height: 5vw;
+    background-color: #191919;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.down:hover {
+    animation: slidebg 3s linear infinite;
+}
+
+@keyframes slidebg {
+    to {
+        background-position: 20vw;
+    }
+}
+
+
+.div>img {
+    background-color: black !important;
+    width: 15%;
+    border-radius: 10px;
+    filter: brightness(0.5);
+
+
+}
+
+.div>img:hover {
+
+    filter: brightness(1);
+
+
+}
+
+.btn1 {
+
+    padding: 10px 40px;
+    background-color: #001aff;
+    border-radius: 6px;
+
+}
+
+.btn1>a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn1:hover {
+    background-color: darkblue;
+}
